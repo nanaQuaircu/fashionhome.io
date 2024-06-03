@@ -1,0 +1,101 @@
+:root{
+    --color-red:red;
+    --color-red-opacity:rgba(255, 165, 160, 0.5);
+    --color-blue-opacity:rgb(133, 133, 247);
+}
+
+
+.list-item:hover{
+    background-color: #FCF2DA;
+    transition: ease-in-out .1s;
+}
+
+.welcome__container,
+.top-picks{
+    /* margin-left: 13%; */
+    width: 100%;
+}
+
+.welcome__container{
+    height: 300px;
+    background-color: white;
+    background: url(../images/eric-fung-Z0GZrpwcc5Y-unsplash.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+* .header .nav .header__nav .nav__button-pane{
+    z-index: 1;
+}
+
+.welcome__title{
+    color: rgb(20, 20, 20);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3.5em;
+}
+
+.top-picks{
+    display: flex;
+    justify-content: center;
+}
+
+.top-picks__container{
+    width: 98%;
+    display: flex;
+}
+
+.top-picks__item-holder__container{
+    width: 88%;
+}
+
+
+.sidebar{
+    float: left;
+    height: 106vh;
+    /* margin-left: -15%; */
+    width: 12%;
+    background-color: #FCF2DA;
+    border-radius: 20px;
+}
+
+.sidebar__list{
+    margin-top: -0.5%;
+}
+
+.sidebar__item-link{
+    text-decoration: none;
+}
+
+.active{
+    background-color: #D2EDF6;
+    color: black;
+}
+
+.sidebar__list-item{
+    padding: 5%;
+    font-size: 1.3em;
+    font-weight: bolder;
+    border-radius: 10px;
+
+}
+
+.sidebar__list-item:hover{
+    background-color: #D2EDF6;
+    color: black;
+    transition: ease-in-out.1s;
+}
+
+.holder-1{background-color: #eee}
+.holder-2{background-color: #eee;}
+.holder-3{background-color: #eee;}
+.holder-4{background-color: #eee;}
+.holder-5{background-color: #eee;}
+.holder-6{background-color: #eee;}
+.holder-7{background-color: #eee;}
+.holder-8{background-color: #eee;}
